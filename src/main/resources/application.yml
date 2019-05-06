@@ -1,13 +1,13 @@
 #server:
 #  port: 8888
-#user:
-#  userName: tin
-#  age: 30
-#  city: changsha
-#  hobbies:
-#    - reading
-#    - programming
-#    - wathing movies
-#  dog:
-#    name: xiongshi
-#    age: 3
+user:
+  userName: tin@qq.com
+  age: ${random.int(12,40)}
+  city: changsha
+  hobbies:
+    - reading
+    - programming
+    - wathing movies
+  dog:
+    name: ${master.name:slei}_xiongshi
+    age: 3

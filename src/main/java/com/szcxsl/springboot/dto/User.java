@@ -21,7 +21,7 @@ import java.util.List;
 @ConfigurationProperties(prefix = "user")
 @Configuration
 @Validated
-@PropertySource(value = {"classpath:user.properties"})
+//@PropertySource(value = {"classpath:user.properties"})
 public class User {
     //@Value("${user.user-name}")
     @Email
