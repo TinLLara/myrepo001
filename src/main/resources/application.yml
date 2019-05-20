@@ -2,7 +2,13 @@
 spring:
   profiles:
     active: dev
-debug: true
+#debug: true
+logging:
+  level:
+    com.szcxsl.springboot: trace
+  file: cxsl.log
+  #path: /spring/log
+
 ---
 server:
   port: 8888
